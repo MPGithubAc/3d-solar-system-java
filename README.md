@@ -2,11 +2,6 @@
 
 A real-time, interactive 3D solar system rendered from scratch in Java using **JOGL** (Java bindings for OpenGL 4) and hand-written **GLSL** shaders. The scene features the Sun, all eight planets, two orbiting moons, visible orbital trajectories, and a free-fly camera you can use to explore the system at 60 FPS.
 
-> _Originally built for an introductory computer graphics course, then cleaned up and extended as a portfolio project._
-
-<!-- TODO: Add a screenshot or GIF of the running program here — it makes a huge difference for a graphics project.
-     Example:  ![Solar system render](docs/screenshot.png)  -->
-
 ## Overview
 
 This project implements a small real-time rendering engine on top of the OpenGL 4 programmable pipeline. Every celestial body is a procedurally generated, UV-mapped sphere drawn with a custom vertex/fragment shader pair, positioned and animated each frame through model-view-projection matrix math. A UVN ("free-look") camera lets the viewer fly through the scene, and toggleable overlays draw the world axes and each body's orbital path.
@@ -44,7 +39,7 @@ This project implements a small real-time rendering engine on top of the OpenGL 
 
 ```
 src/jogl_shader_course/
-├── CompGraphicsProjectDos.java   # Main app: GL setup, render loop, shaders, camera input
+├── Main.java                     # Main app: GL setup, render loop, shaders, camera input
 ├── Camera.java                   # UVN free-fly camera (move/strafe/pan/pitch)
 ├── Sphere.java                   # Procedural UV sphere geometry
 ├── PentagonalPrism.java          # Procedural prism geometry
