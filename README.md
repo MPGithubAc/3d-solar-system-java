@@ -31,14 +31,22 @@ Windowing/IO: Java AWT/Swing (GLCanvas, JFrame, KeyListener)
 Project Structure
 
 src/jogl_shader_course/
-├── Main.java   # Main app: GL setup, render loop, shaders, camera input
+├── Main.java   # Main app: GL setup, render loop, shaders, camera input 
+
 ├── Camera.java                   # UVN free-fly camera (move/strafe/pan/pitch)
+
 ├── Sphere.java                   # Procedural UV sphere geometry
+
 ├── PentagonalPrism.java          # Procedural prism geometry
+
 ├── OrbitTrajectory.java          # Orbit path / trajectory ring geometry
+
 ├── Axes.java                     # World-axis overlay
+
 └── IModel.java                   # Shared model interface
+
 textures/                         # Planet, moon, and sun surface textures
+
 lib/                              # JOGL / GlueGen / JOML jars
 
 Building & Running
