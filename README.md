@@ -31,7 +31,7 @@ Windowing/IO: Java AWT/Swing (GLCanvas, JFrame, KeyListener)
 Project Structure
 
 src/jogl_shader_course/
-├── CompGraphicsProjectDos.java   # Main app: GL setup, render loop, shaders, camera input
+├── Main.java   # Main app: GL setup, render loop, shaders, camera input
 ├── Camera.java                   # UVN free-fly camera (move/strafe/pan/pitch)
 ├── Sphere.java                   # Procedural UV sphere geometry
 ├── PentagonalPrism.java          # Procedural prism geometry
